@@ -3,7 +3,7 @@ Learn and implement Autonomous Systems theory with me: vectorized NumPy weather 
 
 <div align="center">
 
-# 🛰️ AUS with Ireri
+# AUS with Ireri
 ### Computer Science for Autonomous Systems — NumPy, Weather & Signal Processing
 
 *Vectorized Python implementations, mathematical models, and theoretical notes from the MSc in Computer Science for Autonomous Systems curriculum at Eötvös Loránd University (ELTE).*
@@ -17,7 +17,7 @@ Learn and implement Autonomous Systems theory with me: vectorized NumPy weather 
 
 ---
 
-## 📌 Overview
+## Overview
 
 **AUS with Ireri** bridges core mathematical theory in autonomous systems with high-performance numerical computing in Python. Rather than relying on slow iterative loops, every module emphasizes **vectorized array operations**, **memory-safe slicing**, and **signal-level mathematical modeling**—foundational skills for real-time sensor processing and autonomous control pipelines.
 
@@ -38,7 +38,7 @@ The repository is organized around two core analytical tracks:
 
 ---
 
-## ⚙️ Key NumPy Engineering Patterns
+## Key NumPy Engineering Patterns
 
 This repository enforces strict numerical computing best practices for both production performance and automated grading compatibility:
 
