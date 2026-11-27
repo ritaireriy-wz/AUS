@@ -53,14 +53,15 @@ This repository enforces strict numerical computing best practices for both prod
 ## 📂 Repository Structure
 
 ```text
-AUS_with_Ireri/
+AUS/
 ├── notebooks/
-│   ├── 01_almaty_weather_numpy.ipynb       # Vectorized climate analysis & De Martonne index
-│   └── 02_signals_lti_sampling.ipynb       # LTI transfer functions, RC/Butterworth filters & Nyquist
-├── src/
-│   ├── weather_metrics.py                  # Modular functions for seasonal & aridity calculations
-│   └── signal_utils.py                     # Sampling, filtering, and frequency analysis helpers
-├── tests/
-│   └── test_implementations.py             # Unit tests & primitive type verification
-├── requirements.txt
+│   ├── Data_Preprocessing_&_Custom_Feature_Engineering.ipynb   # Feature scaling, encoding & custom pipelines
+│   ├── School_Performance_Prediction_Project.ipynb             # Regression/classification modeling on student metrics
+│   └── Titanic_Survival_Prediction_DND.ipynb                   # Exploratory data analysis & survival classification
+├── lane_keeping/
+│   ├── Lane_Mapping_Walkthrough.ipynb                          # OpenCV & NumPy lane-keeping assist (LKA) perception pipeline
+│   ├── input_videos/                                           # Raw road dashcam test footage
+│   └── output_videos/                                          # Processed LKA overlays & diagnostic frames
+├── .gitignore
+├── LICENSE
 └── README.md
